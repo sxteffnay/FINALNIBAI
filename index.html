@@ -1,0 +1,321 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catmon, My Hometown</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <marquee class="marquee" behavior="scroll" direction="left" scrollamount="6">
+        CATMON, CEBU • MY LOVELY COUNTRY • PHILIPPINES • STEFFANY JANE AGOS
+    </marquee>
+
+    <header class="topbar">
+        <div class="topbar-left">
+            <div class="logo">PH</div>
+            <div class="brand">
+                <h1>CATMON, MY HOMETOWN</h1>
+                <p>Philippines • Cebu • Catmon</p>
+            </div>
+        </div>
+
+        <nav class="topnav">
+            <a href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#media">Media</a>
+            <a href="#table">Table</a>
+
+            <div class="dropdown">
+                <button class="dropbtn" type="button">Categories ▾</button>
+                <div class="dropdown-menu">
+                    <a href="#catmon">Catmon</a>
+                    <a href="#family">Family</a>
+                    <a href="#friends">Friends</a>
+                    <a href="#myself">Myself</a>
+                </div>
+            </div>
+        </nav>
+
+        <select class="jumpMenu" id="jumpMenu">
+            <option value="">Jump to...</option>
+            <option value="#home">Home</option>
+            <option value="#gallery">Gallery</option>
+            <option value="#media">Media</option>
+            <option value="#table">Table</option>
+            <option value="#catmon">Catmon</option>
+            <option value="#family">Family</option>
+            <option value="#friends">Friends</option>
+            <option value="#myself">Myself</option>
+        </select>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <img class="hero-ghost" src="assets/images/ghost.gif" alt="ghost" />
+
+        <div class="hero-inner hero-grid">
+            <!-- LEFT SIDE -->
+            <aside class="left-stack">
+                <img class="hero-avatar" src="assets/images/steffany.jpg" alt="Steffany Jane Agos" />
+
+                <div class="about-card">
+                    <h2 class="about-title">About</h2>
+                    <p class="about-text">
+                        The Philippines is known for warm people and a strong culture. Cebu is a vibrant province with both city
+                        life and peaceful towns. Catmon is in Northern Cebu and has a calm environment and community.
+                    </p>
+                    <ul class="facts">
+                        <li><b>Country:</b> Philippines</li>
+                        <li><b>Province:</b> Cebu</li>
+                        <li><b>Town:</b> Catmon</li>
+                        <li><b>Languages:</b> Cebuano / Filipino</li>
+                    </ul>
+                </div>
+
+                <!-- AUDIO UNDER ABOUT -->
+                <div class="audio-card">
+                    <h3>Sound</h3>
+                    <audio controls>
+                        <source src="assets/music/kanta.mp3" type="audio/mpeg" />
+                    </audio>
+                </div>
+            </aside>
+
+            <!-- INTRO (CENTERED) -->
+            <div class="hero-card">
+                <div class="hero-title-box">
+                    <h2>CATMON</h2>
+                    <p>Cebu, Philippines</p>
+                </div>
+
+                <div class="hero-name">
+                    <h3>AGOS, STEFFANY JANE</h3>
+                </div>
+
+                <div class="hero-text">
+                    <p>
+                        The Philippines is a country of islands and bright coastlines, rich traditions, and people known for
+                        hospitality. What makes it truly special is the warmth of Filipinos—friendly, welcoming, and
+                        family-centered. From everyday life to celebrations, there is a strong sense of unity that makes you feel at home.
+                    </p>
+
+                    <p>
+                        Cebu is one of the places where this spirit shines. In Northern Cebu, my hometown Catmon is a quiet place
+                        with nature views and a relaxed vibe. Here, simple moments become meaningful—fresh air, familiar faces,
+                        and the comfort of local life.
+                    </p>
+
+                    <p>
+                        Catmon may be small, but it has a unique charm. You can feel peace in the sea breeze, enjoy the green
+                        surroundings, and experience a slower pace that helps you appreciate the little things. The town is also
+                        known for local delicacies like bibingka and budbod kabog, which represent our tradition and the pride of
+                        our community.
+                    </p>
+
+                    <p>
+                        Growing up in Catmon taught me to value simple happiness—sharing meals, helping neighbors, and spending time
+                        with family. Life here feels close and personal, where people recognize each other and treat visitors like
+                        friends.
+                    </p>
+
+                    <p>
+                        This website shows my memories and my pride: my family, my friends, and my personal photos.
+                    </p>
+
+                    <p>
+                        Thank you for visiting—welcome to my home, and welcome to Catmon, Cebu.
+                    </p>
+                </div>
+            </div>
+
+            <!-- spacer (keeps intro centered) -->
+            <div class="hero-spacer" aria-hidden="true"></div>
+        </div>
+    </section>
+
+    <!-- ✅ GALLERY (FIXED + SAME SIZE IMAGES) -->
+    <section id="gallery" class="section">
+        <div class="center-wrap">
+            <h2>Gallery</h2>
+
+            <!-- FAMILY -->
+            <div id="family">
+                <h3 class="gallery-title">FAMILY</h3>
+                <div class="gallery gallery-two">
+                    <button class="thumb" type="button" data-img="assets/images/family/fam.jpg">
+                        <img src="assets/images/family/fam.jpg" alt="Family 1" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/family/famm.jpg">
+                        <img src="assets/images/family/famm.jpg" alt="Family 2" />
+                    </button>
+                </div>
+            </div>
+
+            <!-- FRIENDS -->
+            <div id="friends">
+                <h3 class="gallery-title">FRIENDS</h3>
+                <div class="gallery">
+                    <button class="thumb" type="button" data-img="assets/images/friends/grad.jpg">
+                        <img src="assets/images/friends/grad.jpg" alt="Grad" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/gradd.jpg">
+                        <img src="assets/images/friends/gradd.jpg" alt="Grad 2" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/graf.jpg">
+                        <img src="assets/images/friends/graf.jpg" alt="Friends" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/kids.jpg">
+                        <img src="assets/images/friends/kids.jpg" alt="Kids" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/kidss.jpg">
+                        <img src="assets/images/friends/kidss.jpg" alt="Kids 2" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/lily.jpg">
+                        <img src="assets/images/friends/lily.jpg" alt="Lily" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/mega.jpg">
+                        <img src="assets/images/friends/mega.jpg" alt="Mega" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/friends/megaa.jpg">
+                        <img src="assets/images/friends/megaa.jpg" alt="Mega 2" />
+                    </button>
+                </div>
+            </div>
+
+            <!-- CATMON -->
+            <div id="catmon">
+                <h3 class="gallery-title">CATMON, CEBU</h3>
+                <div class="gallery">
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/bingka.png">
+                        <img src="assets/images/Catmon/bingka.png" alt="Bibingka" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/budbud.jpg">
+                        <img src="assets/images/Catmon/budbud.jpg" alt="Budbud Kabog" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/dagat.jpg">
+                        <img src="assets/images/Catmon/dagat.jpg" alt="Dagat" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/discover.jpg">
+                        <img src="assets/images/Catmon/discover.jpg" alt="Discover" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/scen.jpg">
+                        <img src="assets/images/Catmon/scen.jpg" alt="Scenery" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/spot.jpg">
+                        <img src="assets/images/Catmon/spot.jpg" alt="Spot" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/spott.jpg">
+                        <img src="assets/images/Catmon/spott.jpg" alt="Spot 2" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/Catmon/sunset.jpg">
+                        <img src="assets/images/Catmon/sunset.jpg" alt="Sunset" />
+                    </button>
+                </div>
+            </div>
+            <div id="myself">
+                <h3 class="gallery-title">MYSELF</h3>
+                <div class="gallery">
+                    <button class="thumb" type="button" data-img="assets/images/myself/me.jpg">
+                        <img src="assets/images/myself/me.jpg" alt="Me" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/myself/self.jpg">
+                        <img src="assets/images/myself/self.jpg" alt="Self" />
+                    </button>
+
+                    <button class="thumb" type="button" data-img="assets/images/myself/selff.jpg">
+                        <img src="assets/images/myself/selff.jpg" alt="Self 2" />
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MEDIA (VIDEO ONLY / SMALLER) -->
+    <section id="media" class="section">
+        <div class="center-wrap">
+            <h2>Media</h2>
+
+            <div class="media-grid one">
+                <div class="panel">
+                    <h3>Video</h3>
+                    <div class="video-wrap">
+                        <video class="video" controls>
+                            <source src="assets/video/viddd.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABLE -->
+    <section id="table" class="section">
+        <div class="center-wrap">
+            <h2>Table</h2>
+
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Example</th>
+                            <th>Reason</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Family</td>
+                            <td>Moments at home</td>
+                            <td>Family is important in Filipino culture</td>
+                        </tr>
+                        <tr>
+                            <td>Friendship</td>
+                            <td>School and memories</td>
+                            <td>Friends make life meaningful</td>
+                        </tr>
+                        <tr>
+                            <td>Culture</td>
+                            <td>Values and traditions</td>
+                            <td>Respect and togetherness</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><b>Steffany Jane Agos</b> • Catmon, Cebu, Philippines</p>
+        <p class="small">© <span id="year"></span></p>
+    </footer>
+
+    <!-- IMAGE MODAL -->
+    <div class="modal" id="modal">
+        <div class="modal-card">
+            <button class="modal-close" id="modalClose" type="button">Close</button>
+            <img id="modalImg" src="" alt="preview" />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
